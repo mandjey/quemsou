@@ -3,35 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Armando Auler - Especialista em Marketing Digital de Alta Performance">
     <title>Armando Auler | Especialista em Marketing Digital</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary-color: #0077B5;
+            --secondary-color: #25D366;
+            --instagram-color: #E1306C;
+            --text-color: #333;
+            --subtitle-color: #777;
+            --background-color: #f9f9f9;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f9f9f9;
+            background-color: var(--background-color);
             margin: 0;
             padding: 0;
-            color: #333;
+            color: var(--text-color);
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
+
         .card {
             background: #fff;
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
             margin-top: 30px;
         }
+
         h1, h2, h3 {
             margin-bottom: 10px;
         }
+
         .subtitle {
-            color: #777;
+            color: var(--subtitle-color);
             margin-bottom: 20px;
         }
+
         .buttons a {
             display: inline-block;
             padding: 12px 25px;
@@ -42,28 +57,45 @@
             transition: transform 0.2s;
             margin: 10px 5px;
         }
+
         .instagram {
-            background-color: #E1306C;
+            background-color: var(--instagram-color);
         }
+
         .linkedin {
-            background-color: #0077B5;
+            background-color: var(--primary-color);
         }
+
         .share {
-            background-color: #25D366;
+            background-color: var(--secondary-color);
         }
+
         .buttons a:hover {
             transform: translateY(-5px);
         }
+
         ul {
             margin-top: 20px;
         }
+
         li {
             margin-bottom: 10px;
         }
+
         .footer {
             font-size: 14px;
             margin-top: 20px;
             color: #555;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .card {
+                padding: 20px;
+            }
         }
     </style>
 </head>
@@ -73,49 +105,55 @@
             <h1>Armando Auler</h1>
             <div class="subtitle">Especialista em Marketing Digital de Alta Performance</div>
 
-            <h2>Quem é Armando Auler?</h2>
-            <p>Sou estrategista digital e empreendedor, com mais de 12 anos de atuação especializada em Marketing Digital. Minha trajetória inclui diferentes segmentos e experiências – de eventos à agricultura –, até encontrar no digital minha verdadeira paixão e vocação. Sou sócio-proprietário da Auler & Grigio Negócios Digitais, uma empresa inovadora que oferece soluções completas em Marketing Digital, com foco especial em performance, CRM estratégico e crescimento previsível.</p>
+            <section>
+                <h2>Quem é Armando Auler?</h2>
+                <p>Sou estrategista digital e empreendedor, com mais de 12 anos de atuação especializada em Marketing Digital. Minha trajetória inclui diferentes segmentos e experiências – de eventos à agricultura –, até encontrar no digital minha verdadeira paixão e vocação. Sou sócio-proprietário da Auler & Grigio Negócios Digitais, uma empresa inovadora que oferece soluções completas em Marketing Digital, com foco especial em performance, CRM estratégico e crescimento previsível.</p>
+            </section>
 
-            <h2>Histórico Profissional e Principais Realizações</h2>
-            <ul>
-                <li><strong>Corpo Ideal Suplementos (Jaú)</strong>: gestor de tráfego com resultados expressivos, atingindo faturamento de 7 dígitos.</li>
-                <li><strong>A Arquiteta (São Paulo)</strong>: liderança estratégica por 10 anos, tornando-se referência nacional e premiada consecutivamente.</li>
-                <li><strong>Live On (Jaú)</strong>: planejamento e execução de campanhas de tráfego pago, CRM e copywriting, impulsionando o crescimento acelerado.</li>
-                <li><strong>Alboom (Jaú)</strong>: gestor de performance digital durante a pandemia com reconhecimento direto dos sócios pelos resultados obtidos.</li>
-                <li><strong>BioEssência (Jaú)</strong>: implementação de estratégias sólidas que impulsionaram significativamente resultados digitais.</li>
-                <li><strong>Info Store (Manaus)</strong>: coordenação estratégica há mais de 5 anos, ampliando a presença digital nacionalmente.</li>
-                <li><strong>Forever Liss (Lençóis Paulista)</strong>: migração do CRM com redução de custos e aumento significativo da receita, destacando-se como case oficial da Active Campaign.</li>
-                <li><strong>Case Recente</strong>: aumento de receita em CRM de R$168 mil para R$968 mil em 90 dias.</li>
-            </ul>
+            <section>
+                <h2>Histórico Profissional e Principais Realizações</h2>
+                <ul>
+                    <li><strong>Corpo Ideal Suplementos (Jaú)</strong>: gestor de tráfego com resultados expressivos, atingindo faturamento de 7 dígitos.</li>
+                    <li><strong>A Arquiteta (São Paulo)</strong>: liderança estratégica por 10 anos, tornando-se referência nacional e premiada consecutivamente.</li>
+                    <li><strong>Live On (Jaú)</strong>: planejamento e execução de campanhas de tráfego pago, CRM e copywriting, impulsionando o crescimento acelerado.</li>
+                    <li><strong>Alboom (Jaú)</strong>: gestor de performance digital durante a pandemia com reconhecimento direto dos sócios pelos resultados obtidos.</li>
+                    <li><strong>BioEssência (Jaú)</strong>: implementação de estratégias sólidas que impulsionaram significativamente resultados digitais.</li>
+                    <li><strong>Info Store (Manaus)</strong>: coordenação estratégica há mais de 5 anos, ampliando a presença digital nacionalmente.</li>
+                    <li><strong>Forever Liss (Lençóis Paulista)</strong>: migração do CRM com redução de custos e aumento significativo da receita, destacando-se como case oficial da Active Campaign.</li>
+                    <li><strong>Case Recente</strong>: aumento de receita em CRM de R$168 mil para R$968 mil em 90 dias.</li>
+                </ul>
+            </section>
 
-            <h2>Metodologia de Trabalho: Método Lucro Previsível</h2>
-            <ul>
-                <li>Gestão Avançada de Tráfego Pago</li>
-                <li>CRM Estratégico e Automatizado</li>
-                <li>Tracking e Análise de Dados Estratégicos</li>
-                <li>Copywriting Estratégico</li>
-            </ul>
+            <section>
+                <h2>Metodologia de Trabalho: Método Lucro Previsível</h2>
+                <ul>
+                    <li>Gestão Avançada de Tráfego Pago</li>
+                    <li>CRM Estratégico e Automatizado</li>
+                    <li>Tracking e Análise de Dados Estratégicos</li>
+                    <li>Copywriting Estratégico</li>
+                </ul>
+            </section>
 
-            <h2>Principais Diferenciais</h2>
-            <ul>
-                <li>Clareza Total dos Resultados</li>
-                <li>Crescimento Previsível</li>
-                <li>Parceria Estratégica</li>
-                <li>Resultados Comprovados</li>
-            </ul>
+            <section>
+                <h2>Principais Diferenciais</h2>
+                <ul>
+                    <li>Clareza Total dos Resultados</li>
+                    <li>Crescimento Previsível</li>
+                    <li>Parceria Estratégica</li>
+                    <li>Resultados Comprovados</li>
+                </ul>
+            </section>
 
             <div class="buttons">
-                <a href="https://www.instagram.com/mandjey/" class="instagram" target="_blank">Siga-me no Instagram</a>
-                <a href="https://www.linkedin.com/in/armandoauler/" class="linkedin" target="_blank">Meu LinkedIn</a>
-                <a href="whatsapp://send?text=Conheça Armando Auler especialista em Marketing Digital: https://www.instagram.com/mandjey/" class="share" target="_blank">Compartilhe via WhatsApp</a>
-            </div>
-
-            <div class="footer">
-                Contato:<br>
-                <a href="mailto:aulerdigital@gmail.com">aulerdigital@gmail.com</a><br>
-                <a href="tel:+5514997097816">(14) 99709-7816</a>
+                <a href="https://www.instagram.com/mandjey/" class="instagram" target="_blank" aria-label="Siga-me no Instagram">Siga-me no Instagram</a>
+                <a href="https://www.linkedin.com/in/armandoauler/" class="linkedin" target="_blank" aria-label="Meu LinkedIn">Meu LinkedIn</a>
+                <a href="whatsapp://send?text=Conheça Armando Auler especialista em Marketing Digital: https://www.instagram.com/mandjey/" class="share" target="_blank" aria-label="Compartilhe via WhatsApp">Compartilhe via WhatsApp</a>
             </div>
         </div>
+        <footer class="footer">
+            Contato:<br>
+            <a href="mailto:aulerdigital@gmail.com">aulerdigital@gmail.com</a><br>
+        </footer>
     </div>
 </body>
 </html>
